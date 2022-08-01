@@ -16,25 +16,25 @@ import FusionTheme from "fusioncharts/themes/fusioncharts.theme.fusion";
 // Adding the chart and theme as dependency to the core fusioncharts
 ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);
 
-// // STEP 2 - Chart Data
-// const chartData = [
-//   {
-//     label: "HTML",
-//     value: "290"
-//   },
-//   {
-//     label: "CSS",
-//     value: "260"
-//   },
-//   {
-//     label: "JS",
-//     value: "180"
-//   },
-// ];
+// STEP 2 - Chart Data
+const chartData = [
+  {
+    label: "HTML",
+    value: "290"
+  },
+  {
+    label: "CSS",
+    value: "260"
+  },
+  {
+    label: "JS",
+    value: "180"
+  },
+];
 
 // STEP 3 - Creating the JSON object to store the chart configurations
 const chartConfigs = {
-  type: "column2d", // The chart type
+  type: "bar3d", // The chart type
   width: "400", // Width of the chart
   height: "400", // Height of the chart
   dataFormat: "json", // Data type

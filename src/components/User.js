@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Card from './Card';
 import Followers from './Followers';
 const User = () => {
-  return <section classname="section">
+  return <section className="section">
     <Wrapper classname="section-center">
     
      {/*cards and followers are the local files hence we are just using them inside the user component. So no need to export them globally */}
